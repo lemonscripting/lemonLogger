@@ -19,7 +19,7 @@ Before using Lemon Logger, you need to set up your Firebase configuration. Follo
 
 1. Create a Firebase project on the Firebase Console.
 2. Navigate to your project settings and find your Firebase configuration object.
-3. Save your Firebase configuration object in a file named config.js under the /data directory in your project.
+3. Save your Firebase configuration object in a file named `config.js` under the `/data` directory in your project.
 
 Example Firebase configuration object (in `/data/config.js`):
 ```javascript
