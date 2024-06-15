@@ -13,14 +13,14 @@ injectScript('https://www.gstatic.com/firebasejs/8.4.3/firebase-app.js')
     .then(() => injectScript('https://www.gstatic.com/firebasejs/8.4.3/firebase-firestore.js'))
     .then(() => {
         const firebaseConfig = {
-            apiKey: "AIzaSyDXvvX40sk5WOy42AvFBXD7D27Zg4NnEQI",
-            authDomain: "general-verification.firebaseapp.com",
-            projectId: "general-verification",
-            storageBucket: "general-verification.appspot.com",
-            messagingSenderId: "467046235726",
-            appId: "1:467046235726:web:9947ce789373f83af00d1f",
-            measurementId: "G-ESG3WFGYTW"
-        };
+            apiKey: "YOUR_API_KEY",
+            authDomain: "YOUR_AUTH_DOMAIN",
+            projectId: "YOUR_PROJECT_ID",
+            storageBucket: "YOUR_STORAGE_BUCKET",
+            messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+            appId: "YOUR_APP_ID",
+            measurementId: "YOUR_MEASUREMENT_ID"
+          };
 
         // Initialize Firebase
         const app = firebase.initializeApp(firebaseConfig);

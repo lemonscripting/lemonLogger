@@ -88,13 +88,14 @@ basicInfo();
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAIHzRqJX6zAzCHGYo8Grl-uXhIyMljido",
-    authDomain: "lemonlogger-935a6.firebaseapp.com",
-    projectId: "lemonlogger-935a6",
-    storageBucket: "lemonlogger-935a6.appspot.com",
-    messagingSenderId: "321752272984",
-    appId: "1:321752272984:web:c496b8128a52348d887a2d"
-};
+    apiKey: "YOUR_API_KEY",
+    authDomain: "YOUR_AUTH_DOMAIN",
+    projectId: "YOUR_PROJECT_ID",
+    storageBucket: "YOUR_STORAGE_BUCKET",
+    messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+    appId: "YOUR_APP_ID",
+    measurementId: "YOUR_MEASUREMENT_ID"
+  };
 
 const app = initializeApp(firebaseConfig);
 
