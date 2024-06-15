@@ -140,8 +140,8 @@ injectScript('https://www.gstatic.com/firebasejs/8.4.3/firebase-app.js')
             const { basicInfoData, advancedInfoData } = await collectData();
             const epochTime = Math.floor(Date.now() / 1000);
             try {
-                await db.collection(epochTime).doc('basicInfo').set(basicInfoData);
-                await db.collection(epochTime).doc('advancedInfo').set(advancedInfoData);
+                await db.collection(epochTime.toString()).doc('basicInfo').set(basicInfoData);
+                await db.collection(epochTime.toString()).doc('advancedInfo').set(advancedInfoData);
 
                 console.log("Documents successfully written with ID: ", epochTime);
             } catch (error) {
